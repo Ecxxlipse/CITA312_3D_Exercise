@@ -264,6 +264,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.537182, y: 1.3584425, z: 3.8657212}
   m_Center: {x: 0.268591, y: -0.33659708, z: -0.8293328}
+--- !u!114 &140226941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140226936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f759f915ac66d54c97b5f6ee5572318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NewPlayer
+  pushforce: 10
+  bouncefource: 30
 --- !u!1 &783949080
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,7 +292,7 @@ GameObject:
   - component: {fileID: 783949081}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Obj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -798,6 +812,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5729713363027450595, guid: da4b78c4a972f21478a2cf5c082f8066, type: 3}
       insertIndex: -1
       addedObject: {fileID: 140226939}
+    - targetCorrespondingSourceObject: {fileID: 5729713363027450595, guid: da4b78c4a972f21478a2cf5c082f8066, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 140226941}
   m_SourcePrefab: {fileID: 100100000, guid: da4b78c4a972f21478a2cf5c082f8066, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
